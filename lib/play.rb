@@ -39,13 +39,9 @@ end
 # 
 
 def play(board)
-  turns = 3
-  counter = 0
-  loop do
-    counter = counter + 1
-    turn(board)
-    if counter >= turns
-      puts "You only get #{turns} turns baby!"
-    end
-  end
+  turns = 9
+  count = 0
+  each turn { do |count| count <= turns }
+    end 
+    count += 1
 end
