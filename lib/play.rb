@@ -41,6 +41,6 @@ end
 def play(board)
   turns = 9
   count = 0
-  each turn(board) {|count| count <= turns }
+  each play {|count| count <= turns }
     count += 1
 end
