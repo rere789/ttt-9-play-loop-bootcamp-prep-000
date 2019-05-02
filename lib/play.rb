@@ -40,4 +40,5 @@ def play(board)
   moves = []
   while turn <= 9
   moves += 1
+end 
 end
